@@ -1,10 +1,29 @@
 body {
-  background-color: black;
+  background-color: #0f1014;
   color: white;
-  text-align: center;
   font-family: Arial;
+  padding: 20px;
 }
-.movie {
-  border: 1px solid white;
-  padding: 10px;
+
+h1 {
+  color: #1f80e0;
+}
+
+.container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #1c1f26;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: #1f80e0;
 }
