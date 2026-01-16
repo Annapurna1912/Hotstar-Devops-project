@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/USERNAME/hotstar-devops-project.git'
+                git 'https://github.com/Annapurna1912/hotstar-devops-project.git'
             }
         }
 
@@ -16,3 +16,4 @@ pipeline {
         }
     }
 }
+
