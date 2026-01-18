@@ -1,20 +1,24 @@
-# Hotstar DevOps Project
+# Hotstar DevOps Project 🎬
 
-## 📌 Project Overview
-A Hotstar-like OTT platform deployed using DevOps tools with a complete CI/CD pipeline.
+A Hotstar-like OTT platform built using Docker and deployed through a Jenkins CI/CD pipeline.
+
+---
+
+## 🚀 Project Overview
+This project simulates a real-world OTT application with a containerized frontend and backend.  
+The application automatically builds and deploys using Jenkins whenever code is pushed to GitHub.
+
+---
 
 ## 🛠 Tech Stack
-- WSL (Ubuntu)
-- Jenkins
+- Jenkins (CI/CD)
 - Docker & Docker Compose
-- Git & GitHub
-- Shell Scripting
-- Node.js
+- Node.js & Express
 - Nginx
+- HTML, CSS, JavaScript
+- Git & GitHub
+- Linux (WSL)
 
-## ⚙️ CI/CD Flow
-Developer → GitHub → Jenkins → Docker Build → Docker Compose Deployment
+---
 
-## 🚀 How to Run
-```bash
-docker-compose up -d --build
+## 🏗 Architecture
