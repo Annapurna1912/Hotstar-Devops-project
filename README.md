@@ -22,3 +22,12 @@ The application automatically builds and deploys using Jenkins whenever code is 
 ---
 
 ## 🏗 Architecture
+    GitHub
+   ↓
+Jenkins (CI/CD)
+   ↓
+Docker Build
+   ↓
+Docker Compose
+   ↓
+Frontend (Nginx)  →  Backend (Node.js API)
